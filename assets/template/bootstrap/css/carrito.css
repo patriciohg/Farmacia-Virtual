@@ -1,0 +1,40 @@
+ul, ol {
+    list-style:none;
+    z-index:1;
+}
+
+.carrito > li {
+	float:left;
+}
+
+.carrito li a {
+	background-color:#fff;
+	color:#000;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+}
+
+.carrito li a:hover {
+	background-color:#434343;
+}
+
+.carrito li ul {
+    background-color:#f1f1f1;
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+
+.carrito li:hover > ul {
+	display:block;
+}
+
+.carrito li ul li {
+	position:relative;
+}
+
+.carrito li ul li ul {
+	right:-140px;
+	top:0px;
+}
